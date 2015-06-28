@@ -37,7 +37,8 @@
               nav: true,
               speed: 500,
               maxwidth: 800,
-              namespace: this.id
+              namespace: 'transparent-btns'
+              /*namespace: this.id*/
             });
         });
 
