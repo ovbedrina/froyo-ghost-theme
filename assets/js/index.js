@@ -25,6 +25,26 @@
 
 }(jQuery));
 
+(function ($) {
+    "use strict";
+
+    $(document).ready(function(){
+
+        $(".rslides").each(function(){
+          $(this).responsiveSlides({
+              auto: false,
+              pager: true,
+              nav: true,
+              speed: 500,
+              maxwidth: 800,
+              namespace: this.id
+            });
+        });
+
+    });
+
+}(jQuery));
+
 (function($,sr){
 
   // debouncing function from John Hann
